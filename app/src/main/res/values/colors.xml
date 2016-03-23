@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="black">#ff000000</color>
+    <color name="base_grey">#e4e4e4</color>
+    <color name="dark_green">#00ACDF</color>
+    <color name="white">#ffffff</color>
+    <color name="base_font">#565656</color>
+    <color name="light_blue">#61C3FF</color>
+    <color name="light_grey">#999999</color>
+    <color name="base_line">#e6e5e6</color>
+    <color name="font_treat_news_title">#4d4d4d</color>
+    <color name="font_treat_news_content">#808080</color>
+    <color name="font_treat_news_time">#999999</color>
+    <color name="font_news_detial_title">#4c4c4c</color>
+    <color name="font_news_detial_author">#66c4ff</color>]
+    <color name="font_news_button">#cccccc</color>
+    <color name="edittext_bg">#f0f0f0</color>
+    <color name="comment_font">#ff6767</color>
+    <color name="font_comment_zan">#ff6663</color>
+    <color name="comment_up_bg">#fbfbfb</color>
+    <color name="login_font_description">#ff6666</color>
+    <color name="login_font_register">#664cff</color>
+    <color name="wheel_line">#C7C7C7</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="login_font">#515558</color>
+    <color name="award_price">#b2b2b2</color>
+    <color name="backgroundColor">#E8E8E0</color>
+    <color name="backgroundColorPress">#DBDBD3</color>
+    <color name="score_font">#A6A6A6</color>
+
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+
+    <color name="red_light">#ffff4444</color>
+    <color name="green_light">#ff99cc00</color>
+    <color name="orange_light">#ffffbb33</color>
+    <color name="blue_light">#ff33b5e5</color>
+</resources>

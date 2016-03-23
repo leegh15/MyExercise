@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+<com.lgh.tool.myview.StretchScrollView
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView android:id="@+id/hehe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hehe" />
+
+    <Button
+        android:id="@+id/btn_send1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送广播测试" />
+
+    <Button
+        android:id="@+id/btn_send2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="退出" />
+
+    <Button
+        android:id="@+id/btn_broadcaset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="服务广播Second" />
+    <Button
+        android:id="@+id/btn_pagersliding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pagersliding"/>
+    <ImageView
+        android:id="@+id/iv_head"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/iv_head"/>
+    <ProgressBar android:id="@+id/pb"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal" />
+    <Button android:id="@+id/btn_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="上传音乐文件"/>
+        <Button android:id="@+id/btn_shake"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="摇起来"/>
+        <Button android:id="@+id/btn_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义View"/>
+        <Button android:id="@+id/btn_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TabLayout"/>
+        <Button android:id="@+id/btn_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PinnedSectionListView"/>
+        <Button android:id="@+id/btn_sms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="mob短信"/>
+        <Button android:id="@+id/recycleview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RecycleView"/>
+        <Button android:id="@+id/listveiw_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RecycleView"/>
+    </LinearLayout>
+
+</com.lgh.tool.myview.StretchScrollView>
+</LinearLayout>

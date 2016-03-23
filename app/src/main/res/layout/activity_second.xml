@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="接受广播信息:"/>
+        <TextView android:id="@+id/tv_receive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""/>
+    </LinearLayout>
+    <com.lgh.tool.myview.ClearEditText
+        android:id="@+id/filter_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/acm_inputbox"
+        android:drawableLeft="@drawable/search"
+        android:hint="请输入查询关键字"
+        android:singleLine="true"
+        android:textSize="15.0dip" />
+    <Button android:id="@+id/btn_create_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="创建快捷图标"/>
+    <Button android:id="@+id/btn_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="popup弹框"/>
+    <Button android:id="@+id/btn_poptow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="popup第二弹"/>
+    <Button android:id="@+id/btn_popthree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="popup第三弹"/>
+    <Button android:id="@+id/btn_touch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="onTouch"
+        android:src="@drawable/nopic03"/>
+    <TextView android:id="@+id/tv_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/comment_font"
+        android:text="呵呵呵呵呵呵呵呵"/>
+</LinearLayout>
